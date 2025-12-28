@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: akash323/idfc-web-app:v1
+      image: akash323/hdfc-image:v1
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
